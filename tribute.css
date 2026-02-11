@@ -123,3 +123,22 @@ div{
     ul, ol {
     font-family: 'Open Sans', sans-serif;
 }
+@media (max-width: 768px) {
+
+    .div1,
+    .about,
+    .journey,
+    .contributions,
+    .author {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
