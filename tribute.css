@@ -1,0 +1,125 @@
+.div1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 173, 177)
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+body{
+    padding: 15px;
+    margin: 0;
+}
+.img1{
+    display: inline-block;
+    border-radius: 1000px;
+    object-fit: cover;
+max-height: 290px;
+}
+.img2{
+    object-fit: cover;
+    max-height: 290px;
+    display: inline-block;
+}
+h2{
+font-family: 'Playfair Display', serif;
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    background-color: rgb(173, 173, 177);
+    padding: 20px 10px;
+}
+.about-div2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+        max-width: 600px;
+            font-family: 'Open Sans', sans-serif;
+
+
+}
+.journey{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+
+
+}
+.journey-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img3{
+    max-height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+.contributions,.author{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    padding:10px;
+}
+.img4,.img5,.img6,.img7,.img8{
+    max-height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+.presidency{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.inspire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:
+}
+div{
+    background-color: rgb(173, 173, 177);
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    border: solid 1px;
+}
+.legacy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.concl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+}
+.concl+p{
+    width: auto;
+}
+    ul, ol {
+    font-family: 'Open Sans', sans-serif;
+}
