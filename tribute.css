@@ -1,4 +1,11 @@
-.div1{
+
+  
+   
+  
+  
+
+ 
+   .div1{
     display: flex;
     justify-content: center;
     background-color: rgb(173, 173, 177)
@@ -39,11 +46,7 @@ font-family: 'Playfair Display', serif;
     line-height: 2;
     background-color: rgb(173, 173, 177);
     padding: 20px 10px;
-}
-.about-div2{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    gap: 10px;
 }
 p{
         max-width: 600px;
@@ -56,6 +59,8 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
+    box-shadow: inset 0px 0px 20px rgb(239, 235, 235);
+    width: 100%;
 
 
 }
@@ -69,21 +74,33 @@ p{
     width: auto;
     object-fit: cover;
 }
-.contributions,.author{
+.contributions{
     display: flex;
     gap: 10px;
     align-items: center;
-
     padding:10px;
+    width:fit-content;
+    border:2px solid gray;
+    box-shadow:4px 4px 20px gray;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding:20px;
+    width:fit-content;
+    border:2px solid gray;
+    box-shadow:4px 4px 20px gray;
 }
 .img4,.img5,.img6,.img7,.img8{
     max-height: 200px;
     width: auto;
     object-fit: cover;
 }
-img4,.img5{
-    max-width: 250px;
-    height: auto;
+.img5{
+    max-height: 200px;
+    width: auto;
 }
 .presidency{
     display: flex;
@@ -91,6 +108,8 @@ img4,.img5{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+     border:2px solid gray;
+    box-shadow:4px 4px 20px gray;
 }
 .inspire{
     display: flex;
@@ -105,12 +124,13 @@ div{
     text-align: center;
     align-items: center;
     padding: 15px;
-    border: solid 1px;
 }
 .legacy{
     display: flex;
     flex-direction: column;
     align-items: center;
+     border:2px solid gray;
+    box-shadow:4px 4px 20px gray;
 
 }
 .concl{
@@ -119,7 +139,6 @@ div{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: solid;
 }
 .concl+p{
     width: auto;
@@ -144,6 +163,28 @@ div{
     }
 
 }
+.box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.author-para{
+    width:auto;
+    line-height: 2;
+
+}
+.quote{
+    color:rgb(71, 41, 41);
+}
+
+
+
 
 
 
