@@ -81,6 +81,10 @@ p{
     width: auto;
     object-fit: cover;
 }
+img4,.img5{
+    max-width: 250px;
+    height: auto;
+}
 .presidency{
     display: flex;
     flex-direction: column;
@@ -140,6 +144,7 @@ div{
     }
 
 }
+
 
 
 
